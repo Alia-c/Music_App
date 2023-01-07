@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    font-family: "Lato", "sans-serif";
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+    display: flex;
+  }
+  
+  aside {
+    flex: 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .music-head {
+    display: flex;
+    padding: 0px;
+    background-color: #4e4e4e;
+    width: 1647px;
+    margin-top: -8px;
+  }
+  
+  .music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .music-list li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer {
+    display: flex;
+    flex: 0 0 90px;
+    padding: 59px;
+    color: #fff;
+    background-color: rgba(61, 100, 158, 0.9);
+  }
+  .catty-music-small {
+    display: flex;
+    margin-right: auto;
+  }
+  .catty-music-small img {
+    padding-right: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .catty-music-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+   
+  }
+
+  p a {
+    text-decoration: none;
+    margin: auto;
+    margin-right: 67px;
+  }
+  .music-controls{
+    word-spacing: 145px;
+    margin-top: 35px;
+  }
+
+
+  #NP{
+    margin-top: 230px;
+    margin-left: 54px;
+  }
+
+  #C{
+    margin-top: 260px;
+    margin-left: -92px;
+    font-size: x-large;
+  }
+
+  #zero{
+background-color: #ccc;
+  }
+
+
+  #one{
+background-color: #ccc;
+  }
